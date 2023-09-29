@@ -2,42 +2,59 @@
 <html lang="eng-us">
 
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-          crossorigin="anonymous">
-    <title>AKG</title>
-    <link rel="shortcut icon" type="png" href="images/favicon.ico" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+  <title>AKG</title>
+  <link rel="shortcut icon" type="ico" href="images/favicon.ico" >
 </head>
-<!-----------------Main heading and Profile Picture-------------------><body>
-<header class="view-long">
-    <u>CURRICULUM VITAE</u><br>
-    <b>ABDUL KADER GAFOOR</b>
-</header>
-<header class="view-short">
-    <u>CV</u><br>
-    <b>AK GAFOOR</b>
-</header>  
-<div id="general-format">
+<!-----------------Main heading and Profile Picture------------------->
+<body>
+  <div class="container">
+    <header class="view-long">
+      <u>CURRICULUM VITAE</u><br>
+      <b>ABDUL KADER GAFOOR</b>
+    </header>
+  </div>
+  <div class="container" id="general-format">
     <br><br><br><br><br><br>
-    <picture>
-    <!--Display a different picture based on the width of the browser-->
-    <source media="(max-width: 420px)"
-            srcset="images/profile_pic_small.jpg">
-    <source media="(max-width: 640px)"
-            srcset="images/profile_pic_medium.jpg">
-    <source media="(min-width: 640px)"
-            srcset="images/profile_pic_large.jpg">
-    <img id="profile_pic"
-        src="images/profile_pic_large.jpg"
-        alt="A friendly looking face">
-    </picture>    
-    <p id="biography">
-    <em>
+    <div class="row">
+      <div id="sidebar" class="col-md-3">
+        <picture>
+        <!--Display a different picture based on the width of the browser-->
+          <source media="(max-width: 640px)"
+                  srcset="images/profile_pic_medium.jpg">
+          <source media="(min-width: 640px)"
+                  srcset="images/profile_pic_large.jpg">
+          <img id="profile_pic"
+               src="images/profile_pic_large.jpg"
+               alt="A friendly looking face">
+        </picture>
+        <hr>
+        <h4>CONTACT DETAILS</h4>
+        <div>thekader786@gmail.com</div>
+        <div>www.linkedin.com/in/akgxyz</div>
+        <div>https://github.com/Kader-the-Coder</div>
+        <hr>
+        <h4>EDUCATION</h4>
+          Bachelors in Education
+          University of the Western Cape
+          14 April 2016
+          ICT Integration for High School Teachers: Certificate
+          CTLI via SUNOnline
+          31 July 2021
+          Teaching English as Foreign Language (TEFL) Certificate
+          TEFL Professional Institute - Teacher Record
+          01 June 2023
+        <hr>
+      </div>
+      <div class="col-md">
+      <p id="biography">
+        <em>
         <br>"My name is Abdul Kader and I'm passionate about
         <b>coding</b>, <b>mathematics</b> and as a result
         of the previous two passions, <b>gaming</b>. I'm
@@ -52,45 +69,14 @@
         <br><br>
         "My name is Abdul <s>Coder</s> Kader, and I look forward
         to meeting you."
-    </em>
-    </p>  
-    <hr><!--------------------Contact details--------------------------->  
-    <p>
-    <div class="wrapper">
-        <div class="one">Email<br>thekader786@gmail.com</div>
-        <div class="two">linkedin<br>www.linkedin.com/in/akgxyz</div>
-    </div>
-    </p>  
-    <hr><!---------------------Qualifications--------------------------->  
-    <h3>EDUCATION</h3>
-    <table style="overflow-x: scroll;">
-    <tbody>
-        <tr>
-        <th>Qualification</th>
-        <th>Institution</th>
-        <th>Date of completion</th>
-        </tr>
-        <tr>
-        <td>Bachelors in Education</td>
-        <td>University of the Western Cape</td>
-        <td>14 April 2016</td>
-        </tr>
-        <tr>
-        <td>ICT Integration for High School Teachers: Certificate</td>
-        <td>CTLI via SUNOnline</td>
-        <td>31 July 2021</td>
-        </tr>
-        <tr>
-        <td>Teaching English as Foreign Language (TEFL) Certificate</td>
-        <td>TEFL Professional Institute - Teacher Record</td>
-        <td>01 June 2023</td>
-        </tr>
-    </tbody>
-    </table>  
-    <hr><!-------------------------Experience--------------------------->  
-    <h3>EXPERIENCE</h3>
-    <table>
-    <tbody>
+        </em>
+      </p>  
+      <hr><!---------------------Qualifications--------------------------->  
+
+      <hr><!-------------------------Experience--------------------------->  
+      <h3>EXPERIENCE</h3>
+      <table>
+      <tbody>
         <tr>
         <th>Employment History</th>
         <th>Employer</th>
@@ -111,12 +97,12 @@
         <td>Western Cape Education Department</td>
         <td>1 year (Jan 2022 - Dec 2022)</td>
         </tr>
-    </tbody>
-    </table>  
-    <hr><!---------------Additional experience and skills--------------->  
-    <h3>ADDITIONAL EXPERIENCE AND SKILLS</h3>
-    <table>
-    <tbody>
+      </tbody>
+      </table>  
+      <hr><!---------------Additional experience and skills--------------->  
+      <h3>ADDITIONAL EXPERIENCE AND SKILLS</h3>
+      <table>
+      <tbody>
         <tr>
         <td>Microsoft Word, Excel and PowerPoint</td>
         <td>Team management skills</td>
@@ -132,12 +118,12 @@
         <td>Enrolled at HyperionDev</td>
         <td>Proficient in Python</td>
         </tr>
-    </tbody>
-    </table>
-    <hr> 
-    <h3>PROJECTS</h3>
-    <table>
-    <tr>
+      </tbody>
+      </table>
+      <hr> 
+      <h3>PROJECTS</h3>
+      <table>
+      <tr>
         <td>
         <a 
         href="https://github.com/Kader-the-Coder/L1T24/tree/01b54797896d08957f9fa55b8a731b282231c25e"
@@ -149,8 +135,8 @@
         </a>
         </td>
         <td><p>A program designed to manage tasks of multiple users.</p></td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>
         <a
         href="https://github.com/Kader-the-Coder/L1T30/tree/57a46e89652cc38a6376024d554c8477d6a2a471"
@@ -162,8 +148,8 @@
         </a>
         </td>
         <td><p>Inventory management of shoes at its finest!</p></td>
-    </tr>
-    <tr>
+      </tr>
+      <tr>
         <td>
         <a 
         href="https://github.com/Kader-the-Coder/L2T13/tree/034110738fe37854309c82b1ef1d5b3bafa6cac6"
@@ -175,13 +161,17 @@
         </a>
         </td>
         <td><p>This program is ideal for storing books.</p></td>
-    </tr>
-    </table>
-    <hr> 
+      </tr>
+      </table>
+      <hr> 
+    </div>
 </div>
 <br><br><br><br><br><br>
-<footer>
+<div class="container">
+  <footer>
     <a href="#top">Back to top</a>
-</footer>
+  </footer>
+</div>
+</div>
 </body>
 </html>

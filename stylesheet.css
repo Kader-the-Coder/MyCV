@@ -1,22 +1,4 @@
 html {background-color:black;}
-/* Lines 2 to 19 makes the header text change based on window width*/
-.view-long{
-  display:block;
-}
-
-.view-short{
-  display:none;
-}
-
-@media screen and (max-width: 420px) {
-  .view-long{
-     display:none;
-  }
-
-  .view-short{
-     display:block;
-  }
-}
 
 header {
   position: fixed;
@@ -46,8 +28,16 @@ footer {
 footer a {color:white;}
 
 
+#sidebar {
+  padding: 1rem;
+  min-width: 208px;
+  background-color:black;
+  color: aliceblue;
+  text-align: center;
+}
+
 #general-format {
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   background-color: white;  
 }
@@ -100,21 +90,3 @@ table {
   border: 2px solid black;
   border-collapse: collapse;
 }
-
-.wrapper {
-  display: grid;
-  font-size: x-large;
-  text-align: center;
-  grid-template-columns:repeat(2, auto);
-}
-
-.one {
-  grid-column: 1 ;
-  grid-row: 1;
-}
-
-.two {
-  grid-column: 2 ;
-  grid-row: 1;
-}
-
