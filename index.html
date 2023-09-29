@@ -9,37 +9,177 @@
           rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
           crossorigin="anonymous">
-    <link rel="shortcut icon" type="png" href="/images/favicon.ico" >
+    <link rel="shortcut icon" type="png" href="images/favicon.ico" >
 </head>
-
-<body>
-  <header>
-    <!--Container for header------------------------------------------>
-    <div class="container">
-        <!--Row 1------------------------------------------------->
-        <div class="row">
-        </div>
+<!-----------------Main heading and Profile Picture-------------------><body>
+<header class="view-long">
+    <u>CURRICULUM VITAE</u><br>
+    <b>ABDUL KADER GAFOOR</b>
+</header>
+<header class="view-short">
+    <u>CV</u><br>
+    <b>AK GAFOOR</b>
+</header>  
+<div id="general-format">
+    <br><br><br><br><br><br>
+    <picture>
+    <!--Display a different picture based on the width of the browser-->
+    <source media="(max-width: 420px)"
+            srcset="images/profile_pic_small.jpg">
+    <source media="(max-width: 640px)"
+            srcset="images/profile_pic_medium.jpg">
+    <source media="(min-width: 640px)"
+            srcset="images/profile_pic_large.jpg">
+    <img id="profile_pic"
+        src="images/profile_pic_large.jpg"
+        alt="A friendly looking face">
+    </picture>    
+    <p id="biography">
+    <em>
+        <br>"My name is Abdul Kader and I'm passionate about
+        <b>coding</b>, <b>mathematics</b> and as a result
+        of the previous two passions, <b>gaming</b>. I'm
+        currently working as a <b>educator/tutor</b> where
+        I make horses drink water at the river every day."
+        <br><br>
+        "I am motivated by the unknown, always <b>willing to
+        learn</b> something new and <b>overcome challenges</b>.
+        I enjoy working in a team as well as on my own and
+        see myself as being a competent <b>software developer
+        </b> in my near future."
+        <br><br>
+        "My name is Abdul <s>Coder</s> Kader, and I look forward
+        to meeting you."
+    </em>
+    </p>  
+    <hr><!--------------------Contact details--------------------------->  
+    <p>
+    <div class="wrapper">
+        <div class="one">Email<br>thekader786@gmail.com</div>
+        <div class="two">linkedin<br>www.linkedin.com/in/akgxyz</div>
     </div>
-  </header>
-  <!--Container for body---------------------------------------------->
-  <div class="container">
-    <!--Row 1----------------------------------------------------->
-    <div class="row">
-    </div>
-    <!--Row 2----------------------------------------------------->
-    <div class="row">
-    </div>
-    <!--Row 3----------------------------------------------------->
-    <div class="row">
-    </div>
-  </div>
-  <footer>
-    <!--Container for footer------------------------------------------>
-    <div class="container">
-        <!--Row 1------------------------------------------------->
-        <div class="row">
-        </div>
-    </div>
-  </footer>
+    </p>  
+    <hr><!---------------------Qualifications--------------------------->  
+    <h3>EDUCATION</h3>
+    <table style="overflow-x: scroll;">
+    <tbody>
+        <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+        <th>Date of completion</th>
+        </tr>
+        <tr>
+        <td>Bachelors in Education</td>
+        <td>University of the Western Cape</td>
+        <td>14 April 2016</td>
+        </tr>
+        <tr>
+        <td>ICT Integration for High School Teachers: Certificate</td>
+        <td>CTLI via SUNOnline</td>
+        <td>31 July 2021</td>
+        </tr>
+        <tr>
+        <td>Teaching English as Foreign Language (TEFL) Certificate</td>
+        <td>TEFL Professional Institute - Teacher Record</td>
+        <td>01 June 2023</td>
+        </tr>
+    </tbody>
+    </table>  
+    <hr><!-------------------------Experience--------------------------->  
+    <h3>EXPERIENCE</h3>
+    <table>
+    <tbody>
+        <tr>
+        <th>Employment History</th>
+        <th>Employer</th>
+        <th>Duration</th>
+        </tr>
+        <tr>
+        <td>PL1: Educator</td>
+        <td>Western Cape Education Department</td>
+        <td>8 years (2015 - 2023)</td>
+        </tr>
+        <tr>
+        <td>PL1: Subject Head</td>
+        <td>Western Cape Education Department</td>
+        <td>4 years (2018 - 2023)</td>
+        </tr>
+        <tr>
+        <td>PL2: Acting Head of Department</td>
+        <td>Western Cape Education Department</td>
+        <td>1 year (Jan 2022 - Dec 2022)</td>
+        </tr>
+    </tbody>
+    </table>  
+    <hr><!---------------Additional experience and skills--------------->  
+    <h3>ADDITIONAL EXPERIENCE AND SKILLS</h3>
+    <table>
+    <tbody>
+        <tr>
+        <td>Microsoft Word, Excel and PowerPoint</td>
+        <td>Team management skills</td>
+        <td>Mathematics tutor</td>
+        </tr>
+        <tr>
+        <td>Trained in ICT.</td>
+        <td>ICT champion</td>
+        <td>Microsoft TEAMS and ZOOM.</td>
+        </tr>
+        <tr>
+        <td>NSC examination marker</td>
+        <td>Enrolled at HyperionDev</td>
+        <td>Proficient in Python</td>
+        </tr>
+    </tbody>
+    </table>
+    <hr> 
+    <h3>PROJECTS</h3>
+    <table>
+    <tr>
+        <td>
+        <a 
+        href="https://github.com/Kader-the-Coder/L1T24/tree/01b54797896d08957f9fa55b8a731b282231c25e"
+        target="_blank">
+            <img
+            class="icons"
+            src="images/tm_icon.png"
+            alt="Task manager icon">
+        </a>
+        </td>
+        <td><p>A program designed to manage tasks of multiple users.</p></td>
+    </tr>
+    <tr>
+        <td>
+        <a
+        href="https://github.com/Kader-the-Coder/L1T30/tree/57a46e89652cc38a6376024d554c8477d6a2a471"
+        target="_blank">
+            <img
+            class="icons"
+            src="images/shoe_icon.png"
+            alt="Shoe inventory project">
+        </a>
+        </td>
+        <td><p>Inventory management of shoes at its finest!</p></td>
+    </tr>
+    <tr>
+        <td>
+        <a 
+        href="https://github.com/Kader-the-Coder/L2T13/tree/034110738fe37854309c82b1ef1d5b3bafa6cac6"
+        target="_blank">
+            <img
+            class="icons"
+            src="images/book_icon.png"
+            alt="Book manager project">
+        </a>
+        </td>
+        <td><p>This program is ideal for storing books.</p></td>
+    </tr>
+    </table>
+    <hr> 
+</div>
+<br><br><br><br><br><br>
+<footer>
+    <a href="#top">Back to top</a>
+</footer>
 </body>
 </html>

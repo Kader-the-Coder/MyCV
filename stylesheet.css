@@ -1,0 +1,120 @@
+html {background-color:black;}
+/* Lines 2 to 19 makes the header text change based on window width*/
+.view-long{
+  display:block;
+}
+
+.view-short{
+  display:none;
+}
+
+@media screen and (max-width: 420px) {
+  .view-long{
+     display:none;
+  }
+
+  .view-short{
+     display:block;
+  }
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  background-color: black;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  border:80px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+  background-color: black;
+}
+
+footer a {color:white;}
+
+
+#general-format {
+  max-width: 800px;
+  margin: auto;
+  background-color: white;  
+}
+
+#biography {
+  background-color:black;
+  font-size: larger;
+  color: white;
+  text-align: center;
+}
+
+h3 {padding-top:32px;text-align:center;}
+
+/* Make icons get bigger when hovering over*/
+.icons {max-width:64px;max-height:64px;}
+.icons:hover {max-width:75px;max-height:75px;}
+
+#profile_pic {
+  display: block;
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 240px;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 32px;
+}
+
+th, tr, td {
+    text-align: center;
+    border: 2px solid black;
+}
+
+hr {
+  height: 10px;
+  outline-style:hidden;
+  background-color: black;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 64px;
+  table-layout: fixed;
+  width: 80%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.wrapper {
+  display: grid;
+  font-size: x-large;
+  text-align: center;
+  grid-template-columns:repeat(2, auto);
+}
+
+.one {
+  grid-column: 1 ;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 2 ;
+  grid-row: 1;
+}
+
