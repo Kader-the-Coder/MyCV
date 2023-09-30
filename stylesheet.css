@@ -90,3 +90,16 @@ table {
   border: 2px solid black;
   border-collapse: collapse;
 }
+
+#project-card {
+  height: 25rem;
+  .card {height: 15rem;}
+  #task-card {display:none;}
+  #task-icon:hover ~ #task-card {display:block}
+  
+  #shoe-card {display:none}
+  #shoe-icon:hover ~ #shoe-card {display:block}
+  
+  #book-card {display:none}
+  #book-icon:hover ~ #book-card {display:block}
+}
