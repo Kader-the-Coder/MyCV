@@ -52,8 +52,8 @@ footer a {color:white;}
 h3 {padding-top:32px;text-align:center;}
 
 /* Make icons get bigger when hovering over*/
-.icons {max-width:64px;max-height:64px;}
-.icons:hover {max-width:75px;max-height:75px;}
+.icons {width:64px;height:64px;}
+.icons:hover {width:75px;height:75px;}
 
 #profile_pic {
   display: block;
@@ -102,4 +102,12 @@ table {
   
   #book-card {display:none}
   #book-icon:hover ~ #book-card {display:block}
+
+#contact_icons {
+  margin: auto;
+  margin-bottom: 64px;
+  width: 80%;
+  .col-md {
+    height: 100px;
+  }
 }
