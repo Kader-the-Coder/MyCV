@@ -1,9 +1,6 @@
 html {background-color:black;}
 
 header {
-  top: 0px;
-  left: 0px;
-  white-space: nowrap;
   text-align: center;
   font-size: xx-large;
   color: white;
@@ -11,23 +8,13 @@ header {
 }
 
 footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  border:80px;
-  white-space: nowrap;
   text-align: center;
   font-size: xx-large;
   color: white;
   background-color: black;
 }
 
-footer a {color:white;}
-
-
 #sidebar {
-  padding: 1rem;
   min-width: 208px;
   background-color:blueviolet;
   color: aliceblue;
@@ -35,12 +22,11 @@ footer a {color:white;}
 }
 
 #general-format {
-  max-width: 1200px;
-  margin: auto;
   background-color: white;  
 }
 
 #nestedrow1 {
+  height: 20%;
   background-color:black;
   font-size: larger;
   color: white;
@@ -48,13 +34,21 @@ footer a {color:white;}
 }
 
 #nestedrow2 {
-  background-color:rgb(59, 42, 75);
+  height: 30%;
+  background-color:rgb(42, 43, 75);
   font-size: larger;
   color: white;
   text-align: center;
 }
 
-h3 {padding-top:32px;text-align:center;}
+#nestedrow3 {
+  height: 50%;
+  background-color:rgb(45, 18, 95);
+  font-size: larger;
+  color: white;
+  text-align: center;
+  overflow-y: hidden;
+}
 
 /* Make icons get bigger when hovering over*/
 .icons {width:64px;height:64px;}
@@ -68,51 +62,20 @@ h3 {padding-top:32px;text-align:center;}
   height: 240px;
 }
 
-p {
-  font-size: large;
-  text-align: justify;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 32px;
-}
-
-th, tr, td {
-    text-align: center;
-    border: 2px solid black;
-}
-
-hr {
-  height: 10px;
-  outline-style:hidden;
-  background-color: black;
-}
-
-table {
-  margin: auto;
-  margin-bottom: 64px;
-  table-layout: fixed;
-  width: 80%;
-  border: 2px solid black;
-  border-collapse: collapse;
-}
-
-#project-card {
-  height: 25rem;
-  .card {height: 15rem;}
-  #task-card {display:none;}
-  #task-icon:hover ~ #task-card {display:block}
+#experience {
   
-  #shoe-card {display:none}
-  #shoe-icon:hover ~ #shoe-card {display:block}
-  
-  #book-card {display:none}
-  #book-icon:hover ~ #book-card {display:block}
-
-#contact_icons {
-  margin: auto;
-  margin-bottom: 64px;
-  width: 80%;
-  .col-md {
-    height: 100px;
+  margin-top:1rem;
+  height: 92%;
+  .card-body {
+    align-items: center;
   }
+}
+
+#skills {
+  margin-top:1rem;
+  height: 92%;
+}
+
+#projects {
+  height: 100%;
 }
