@@ -40,8 +40,15 @@ footer a {color:white;}
   background-color: white;  
 }
 
-#biography {
+#nestedrow1 {
   background-color:black;
+  font-size: larger;
+  color: white;
+  text-align: center;
+}
+
+#nestedrow2 {
+  background-color:rgb(59, 42, 75);
   font-size: larger;
   color: white;
   text-align: center;
