@@ -12,20 +12,21 @@
   <title>AKG</title>
   <link rel="shortcut icon" type="ico" href="./images/favicon.ico" >
 </head>
-<!-----------------Main heading and Profile Picture------------------->
+
 <body>
-  <div class="container">
-    <header class="view-long">
-      <u>CURRICULUM VITAE</u><br>
-      <b>ABDUL KADER GAFOOR</b>
-    </header>
-  </div>
+<!------------------------------Header-------------------------------->
+  <header class="view-long">
+    <u>CURRICULUM VITAE</u><br>
+    <b>ABDUL KADER GAFOOR</b>
+  </header>
   <div class="container" id="general-format">
-    <br><br><br><br><br><br>
+    <br>
+    <!-----------------------------BODY------------------------------->
     <div class="row">
+      <!-------------------------SIDE PANEL--------------------------->
       <div id="sidebar" class="col-md-3">
         <picture>
-        <!--Display a different picture based on the width of the browser-->
+        
           <img id="profile_pic"
                src="images/profile_pic.png"
                alt="A friendly looking face">
@@ -71,131 +72,118 @@
           01 June 2023
         <hr>
       </div>
+      <!----------------------------BODY------------------------------>
       <div class="col-md">
-      <p id="biography">
-        <em>
-        <br>"My name is Abdul Kader and I'm passionate about
-        <b>coding</b>, <b>mathematics</b> and as a result
-        of the previous two passions, <b>gaming</b>. I'm
-        currently working as a <b>educator/tutor</b> where
-        I make horses drink water at the river every day."
-        <br><br>
-        "I am motivated by the unknown, always <b>willing to
-        learn</b> something new and <b>overcome challenges</b>.
-        I enjoy working in a team as well as on my own and
-        see myself as being a competent <b>software developer
-        </b> in my near future."
-        <br><br>
-        "My name is Abdul <s>Coder</s> Kader, and I look forward
-        to meeting you."
-        </em>
-      </p>  
-      <hr><!---------------------Qualifications--------------------------->  
-
-      <hr><!-------------------------Experience--------------------------->  
-      <h3>EXPERIENCE</h3>
-      <table>
-      <tbody>
-        <tr>
-        <th>Employment History</th>
-        <th>Employer</th>
-        <th>Duration</th>
-        </tr>
-        <tr>
-        <td>PL1: Educator</td>
-        <td>Western Cape Education Department</td>
-        <td>8 years (2015 - 2023)</td>
-        </tr>
-        <tr>
-        <td>PL1: Subject Head</td>
-        <td>Western Cape Education Department</td>
-        <td>4 years (2018 - 2023)</td>
-        </tr>
-        <tr>
-        <td>PL2: Acting Head of Department</td>
-        <td>Western Cape Education Department</td>
-        <td>1 year (Jan 2022 - Dec 2022)</td>
-        </tr>
-      </tbody>
-      </table>  
-      <hr><!---------------Additional experience and skills--------------->  
-      <h3>ADDITIONAL EXPERIENCE AND SKILLS</h3>
-      <table>
-      <tbody>
-        <tr>
-        <td>Microsoft Word, Excel and PowerPoint</td>
-        <td>Team management skills</td>
-        <td>Mathematics tutor</td>
-        </tr>
-        <tr>
-        <td>Trained in ICT.</td>
-        <td>ICT champion</td>
-        <td>Microsoft TEAMS and ZOOM.</td>
-        </tr>
-        <tr>
-        <td>NSC examination marker</td>
-        <td>Enrolled at HyperionDev</td>
-        <td>Proficient in Python</td>
-        </tr>
-      </tbody>
-      </table>
-      <hr> 
-      <div id="project-card" class="card">
-        <h3 class="card-header">PROJECTS</h3>
-        <div class="card-body">
-          <a id="task-icon"
-          href="https://github.com/Kader-the-Coder/task-manager.git"
-          target="_blank">
-              <img
-              class="icons"
-              src="images/tm_icon.png"
-              alt="Task manager icon">
-          </a>
-          <a id="shoe-icon"
-          href="https://github.com/Kader-the-Coder/L1T30.git"
-          target="_blank">
-              <img
-              class="icons"
-              src="images/shoe_icon.png"
-              alt="Shoe inventory project">
-          </a>
-          <a id="book-icon"
-          href="https://github.com/Kader-the-Coder/book-manager"
-          target="_blank">
-              <img
-              class="icons"
-              src="images/book_icon.png"
-              alt="Book manager icon">
-          </a>
-          <div id="task-card" class="card">
-            <h3 class="card-header">Task Manager</h3>
-            <div class="card-body">
-              <p class="card-text">Create, Update and Delete tasks all from your terminal! Supports multiple local users and has admin capabilities as well.</p>
+        <!-----------------------NESTED ROW 1------------------------->
+        <div class="row">
+          <p id="biography">
+            <em>
+            <br>"My name is Abdul Kader and I'm passionate about
+            <b>coding</b>, <b>mathematics</b> and as a result
+            of the previous two passions, <b>gaming</b>. I'm
+            currently working as a <b>educator/tutor</b> where
+            I make horses drink water at the river every day."
+            <br><br>
+            "I am motivated by the unknown, always <b>willing to
+            learn</b> something new and <b>overcome challenges</b>.
+            I enjoy working in a team as well as on my own and
+            see myself as being a competent <b>software developer
+            </b> in my near future."
+            <br><br>
+            "My name is Abdul <s>Coder</s> Kader, and I look forward
+            to meeting you."
+            </em>
+          </p>  
+        </div>
+        <!-----------------------NESTED ROW 2------------------------->
+        <div class="row">
+          <!---------------------NESTED COL 1------------------------->
+          <div class="col-md-6">
+            <div id="project-card" class="card">
+              <h3 class="card-header">PROJECTS</h3>
+              <div class="card-body">
+                <a id="task-icon"
+                href="https://github.com/Kader-the-Coder/task-manager.git"
+                target="_blank">
+                    <img
+                    class="icons"
+                    src="images/tm_icon.png"
+                    alt="Task manager icon">
+                </a>
+                <a id="shoe-icon"
+                href="https://github.com/Kader-the-Coder/L1T30.git"
+                target="_blank">
+                    <img
+                    class="icons"
+                    src="images/shoe_icon.png"
+                    alt="Shoe inventory project">
+                </a>
+                <a id="book-icon"
+                href="https://github.com/Kader-the-Coder/book-manager"
+                target="_blank">
+                    <img
+                    class="icons"
+                    src="images/book_icon.png"
+                    alt="Book manager icon">
+                </a>
+                <div id="task-card" class="card">
+                  <h3 class="card-header">Task Manager</h3>
+                  <div class="card-body">
+                    <p class="card-text">Create, Update and Delete tasks all from your terminal! Supports multiple local users and has admin capabilities as well.</p>
+                  </div>
+                </div>
+                <div id="shoe-card" class="card">
+                  <h3 class="card-header">Shoe Inventory manager</h3>
+                  <div class="card-body">
+                    <p class="card-text">Add, update and remove shoes from your terminal.</p>
+                  </div>
+                </div>
+                <div id="book-card" class="card">
+                  <h3 class="card-header">Book manager</h3>
+                  <div class="card-body">
+                    <p class="card-text">Program for a bookstore. This program allow a clerk to enter data about new books into the database, update book information, delete books from the database, and search to find the availability of books in the database.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="shoe-card" class="card">
-            <h3 class="card-header">Shoe Inventory manager</h3>
-            <div class="card-body">
-              <p class="card-text">Add, update and remove shoes from your terminal.</p>
-            </div>
-          </div>
-          <div id="book-card" class="card">
-            <h3 class="card-header">Book manager</h3>
-            <div class="card-body">
-              <p class="card-text">Program for a bookstore. This program allow a clerk to enter data about new books into the database, update book information, delete books from the database, and search to find the availability of books in the database.</p>
-            </div>
+          <!---------------------NESTED COL 2------------------------->
+          <div class="col-md-6">
+            <h3>EXPERIENCE</h3>
+            <table>
+              <tbody>
+                <tr>
+                <th>Employment History</th>
+                <th>Employer</th>
+                <th>Duration</th>
+                </tr>
+                <tr>
+                <td>PL1: Educator</td>
+                <td>Western Cape Education Department</td>
+                <td>8 years (2015 - 2023)</td>
+                </tr>
+                <tr>
+                <td>PL1: Subject Head</td>
+                <td>Western Cape Education Department</td>
+                <td>4 years (2018 - 2023)</td>
+                </tr>
+                <tr>
+                <td>PL2: Acting Head of Department</td>
+                <td>Western Cape Education Department</td>
+                <td>1 year (Jan 2022 - Dec 2022)</td>
+                </tr>
+              </tbody>
+            </table>  
           </div>
         </div>
       </div>
-      <hr> 
     </div>
-</div>
-<br><br><br><br><br><br>
-<div class="container">
-  <footer>
-    <a href="#top">Back to top</a>
-  </footer>
-</div>
+  <br>
+  <div class="container">
+    <footer>
+      <a href="#top">Back to top</a>
+    </footer>
+  </div>
 </div>
 
 </body>

@@ -1,10 +1,8 @@
 html {background-color:black;}
 
 header {
-  position: fixed;
   top: 0px;
   left: 0px;
-  width: 100%;
   white-space: nowrap;
   text-align: center;
   font-size: xx-large;
