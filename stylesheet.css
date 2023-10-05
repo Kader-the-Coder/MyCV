@@ -19,6 +19,12 @@ footer {
   background-color:blueviolet;
   color: aliceblue;
   text-align: center;
+  #contact_icons {
+    padding-top: 0px;
+    background-color:blueviolet;
+    border-style: none;
+    height: 96px;
+  }
 }
 
 #general-format {
@@ -34,24 +40,42 @@ footer {
 }
 
 #nestedrow2 {
-  height: 30%;
+  height: 60%;
   background-color:rgb(42, 43, 75);
   font-size: larger;
   color: white;
   text-align: center;
+  #experience {
+    margin-top:1rem;
+    height: 92%;
+    .card-body {
+      align-items: center;
+    }
+  }
+  #skills {
+    margin-top:1rem;
+    height: 92%;
+  }
 }
 
 #nestedrow3 {
-  height: 50%;
+  height: 20%;
   background-color:rgb(45, 18, 95);
   font-size: larger;
   color: white;
   text-align: center;
   overflow-y: hidden;
+  #projects {
+    height: 7rem;
+  }
+  
 }
 
 /* Make icons get bigger when hovering over*/
-.icons {width:64px;height:64px;}
+.icons {
+  width:64px;
+  height:64px;
+}
 .icons:hover {width:75px;height:75px;}
 
 #profile_pic {
@@ -60,22 +84,4 @@ footer {
   margin-left: auto;
   margin-right: auto;
   height: 240px;
-}
-
-#experience {
-  
-  margin-top:1rem;
-  height: 92%;
-  .card-body {
-    align-items: center;
-  }
-}
-
-#skills {
-  margin-top:1rem;
-  height: 92%;
-}
-
-#projects {
-  height: 100%;
 }
