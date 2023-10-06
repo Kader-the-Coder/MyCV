@@ -7,68 +7,75 @@ header {
   background-color: black;
 }
 
+#mainContainer {
+  background-color: white;  
+  #mainBody {
+    #nestedrow1 {
+      height: 20%;
+      background-color:black;
+      font-size: larger;
+      color: white;
+      text-align: center;
+    }
+    #nestedContainer {
+      padding: 0;
+      #nestedrow2 {
+        height: 60%;
+        background-color:rgb(42, 43, 75);
+        font-size: larger;
+        color: white;
+        text-align: center;
+        #experience {
+          margin-top:1rem;
+          height: 92%;
+          .card-body {
+            align-items: center;
+          }
+        }
+        #skills {
+          margin-top:1rem;
+          height: 92%;
+        }
+      }
+    }
+    #nestedrow3 {
+      height: 20%;
+      background-color:rgb(45, 18, 95);
+      font-size: larger;
+      color: white;
+      text-align: center;
+      overflow-y: hidden;
+      #projects {
+        height: 7rem;
+      }
+    }
+  }
+  #sidebar {
+    min-width: 208px;
+    background-color:blueviolet;
+    color: aliceblue;
+    text-align: center;
+    #profile_pic {
+      display: block;
+      max-width: 240px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 240px;
+    }
+    #contact_icons {
+      padding-top: 0px;
+      background-color:blueviolet;
+      border-style: none;
+      height: 96px;
+    }
+  }
+}
+
 footer {
   text-align: center;
   font-size: xx-large;
   color: white;
   background-color: black;
-}
-
-#sidebar {
-  min-width: 208px;
-  background-color:blueviolet;
-  color: aliceblue;
-  text-align: center;
-  #contact_icons {
-    padding-top: 0px;
-    background-color:blueviolet;
-    border-style: none;
-    height: 96px;
-  }
-}
-
-#general-format {
-  background-color: white;  
-}
-
-#nestedrow1 {
-  height: 20%;
-  background-color:black;
-  font-size: larger;
-  color: white;
-  text-align: center;
-}
-
-#nestedrow2 {
-  height: 60%;
-  background-color:rgb(42, 43, 75);
-  font-size: larger;
-  color: white;
-  text-align: center;
-  #experience {
-    margin-top:1rem;
-    height: 92%;
-    .card-body {
-      align-items: center;
-    }
-  }
-  #skills {
-    margin-top:1rem;
-    height: 92%;
-  }
-}
-
-#nestedrow3 {
-  height: 20%;
-  background-color:rgb(45, 18, 95);
-  font-size: larger;
-  color: white;
-  text-align: center;
-  overflow-y: hidden;
-  #projects {
-    height: 7rem;
-  }
-  
 }
 
 /* Make icons get bigger when hovering over*/
@@ -77,11 +84,3 @@ footer {
   height:64px;
 }
 .icons:hover {width:75px;height:75px;}
-
-#profile_pic {
-  display: block;
-  max-width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 240px;
-}
