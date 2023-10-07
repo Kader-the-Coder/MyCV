@@ -50,7 +50,7 @@ html {background-color:red;}
     background-color:blueviolet;
     color: aliceblue;
     text-align: center;
-    #profile_pic {
+    #profilePic {
       margin-top: 1rem;
       display: block;
       width: 30%;
@@ -59,7 +59,7 @@ html {background-color:red;}
       margin-right: auto;
       
     }
-    #contact_icons {
+    #contactIcons {
       padding-top: 0px;
       border-style: none;
       height: 96px;
