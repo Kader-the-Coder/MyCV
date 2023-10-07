@@ -18,10 +18,11 @@ html {background-color:rgba(23, 155, 23, 1);}
     background-color: rgba(23, 155, 23, 1);
     #nestedContainer {
       padding: 0.5rem;
-      text-align: center;
+      
       font-size: larger;
       background-color: rgba(23, 155, 23, 1);
       #nestedrowOne {
+        text-align: center;
         background-color: rgba(23, 155, 23, 1);
       }
       #nestedrowTwo {
@@ -32,6 +33,7 @@ html {background-color:rgba(23, 155, 23, 1);}
           height: 100%;
         }
         #languages {
+          height: 100%;
         }
       }
       #nestedrowThree {
