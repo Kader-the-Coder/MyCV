@@ -8,7 +8,6 @@ html {background-color:red;}
     table-layout: fixed;
     word-wrap: normal;
   }
-  /* Make icons get bigger when hovering over*/
   .icons {
     width:48px;
     height:48px;
@@ -22,10 +21,10 @@ html {background-color:red;}
       text-align: center;
       font-size: larger;
       background-color: blueviolet;
-      #nestedrow1 {
+      #nestedrowOne {
         background-color: red;
       }
-      #nestedrow2 {
+      #nestedrowTwo {
         background-color: green;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -36,7 +35,7 @@ html {background-color:red;}
           height: 100%;
         }
       }
-      #nestedrow3 {
+      #nestedrowThree {
         background-color: blue;
         padding-bottom:1rem;
         #projects {
