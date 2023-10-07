@@ -3,66 +3,60 @@ html {background-color:rgba(23, 155, 23, 1);}
 #mainContainer {
   position: relative;
   margin: 0;
-  & * {font-size: large;}
-  .table {
-    table-layout: fixed;
-    word-wrap: normal;
-  }
-  .icons {
-    width:48px;
-    height:48px;
-  }
-
   background-image: url("./images/github.ico");
-  #mainBody {
-    background-color: rgba(23, 155, 23, 1);
-    #nestedContainer {
-      padding: 0.5rem;
-      
-      font-size: larger;
-      background-color: rgba(23, 155, 23, 1);
-      #nestedrowOne {
-        text-align: center;
-        background-color: rgba(23, 155, 23, 1);
-      }
-
-      #nestedrowThree {
-        background-color: rgba(23, 155, 23, 1);
-        padding-bottom:1rem;
-        #projects {
-        }
-      }
-    }
-
-  }
-  #sidebar {
-    background-color:rgba(23, 155, 23, 1);
-    color: aliceblue;
-    text-align: center;
-    padding-bottom: 1rem;
-    #profilePic {
-      margin-top: 1rem;
-      display: block;
-      width: 72px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    #contactIcons {
-      padding-top: 0px;
-      border-style: none;
-      height: 96px;
-    }
-  }
 }
 
+.table {
+  table-layout: fixed;
+  word-wrap: normal;
+}
+.icons {
+  width:48px;
+  height:48px;
+}
+
+#mainBody {
+  background-color: rgba(23, 155, 23, 1);
+}
+  #nestedContainer {
+    padding: 0.5rem;
+    font-size: larger;
+    background-color: rgba(23, 155, 23, 1);
+  }
+#nestedrowOne {
+  text-align: center;
+  background-color: rgba(23, 155, 23, 1);
+}
 #nestedrowTwo {
   background-color: black;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  #experience {
-    height: 100%;
-  }
-  #languages {
-    height: 100%;
-  }
+}
+#experience {
+  height: 100%;
+}
+#languages {
+  height: 100%;
+}
+#nestedrowThree {
+  background-color: rgba(23, 155, 23, 1);
+  padding-bottom:1rem;
+}
+#sidebar {
+  background-color:rgba(23, 155, 23, 1);
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#profilePic {
+  margin-top: 1rem;
+  display: block;
+  width: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactIcons {
+  padding-top: 0px;
+  border-style: none;
+  height: 96px;
 }
