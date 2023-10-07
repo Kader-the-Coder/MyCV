@@ -31,7 +31,8 @@ body {
   body {height:100vh; min-height: 45rem;}
   #mainContainer {
     position: absolute;
-    transform: translate(10%, -20%);
+    top: 10%;
+    transform: translate(12.6%, 40%);
     height: 0;
     width: 80%;
   }
