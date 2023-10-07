@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div id="mainContainer" class="container">
+  <div id="mainContainer" class="container-fluid">
     <!--ROW 1--------------------------------------------------------->
     <div class="row">
       <!--COL 1 - MAIN BODY------------------------------------------->
@@ -24,7 +24,7 @@
         <!--NESTED CONTAINER - FOR NESTED ROWS----------------------->
         <div id="nestedContainer" class="container-fluid">
           <!--NESTED ROW 1 - BIOGRAPHY-------------------------------->
-          <div id="nestedrowOne" class="row">
+          <div id="nestedrRowOne" class="row">
             <div class="col">
               <div class="card">
                 <div class="card-body text-nowrap">
@@ -34,14 +34,14 @@
             </div> 
           </div>
           <!--NESTED ROW 2-------------------------------------------->
-          <div id="nestedrowTwo" class="row">
+          <div id="nestedRowTwo" class="row">
             <!--NESTED COL 1 - Experience----------------------------->
-            <div class="col-8">
+            <div class="col-9">
               <div id="experience" class="card">
                 <h4 class="card-header">Experience</h4>
                 <div class="card-body">
                   <!--Table on small screens-------------------------->
-                  <table class="d-lg-none table table-hover">
+                  <table class="table table-hover">
                     <tbody>
                       <tr>
                         <td>
@@ -66,47 +66,12 @@
                       </tr>
                     </tbody>
                   </table>
-                  <!--Table on larger screens-------------------------->
-                  <table class="d-none d-lg-block table table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Job</th>
-                        <th scope="col">Employer</th>
-                        <th scope="col">Position</th>
-                        <th scope="col">Period</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Educator</td>
-                        <td>WCED</td>
-                        <td>Acting H.O.D</td>
-                        <td>'22 - Dec'22</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Educator</td>
-                        <td>WCED</td>
-                        <td>Subject Head</td>
-                        <td>'18 - Oct'23</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Educator</td>
-                        <td>WCED</td>
-                        <td>Mathematics</td>
-                        <td>'16 - Dec'23</td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
               </div>
             </div>
             <!--NESTED COL 2 - LANGUAGES------------------------------>
-            <div class="col-4">
-              <div id="languages" class="card">
+            <div class="col-3">
+              <div id="languages" class="card align-items-center">
                 <h4 class="d-none d-lg-block card-header">Languages</h4>
                 <div class="card-body">
                   <img class="icons" src=".\images\python_icon.png" alt="python">
@@ -118,7 +83,7 @@
             </div>
           </div>
           <!--NESTED ROW 3 - Projects--------------------------------->
-          <div id="nestedrowThree" class="row">
+          <div id="nestedRowThree" class="row">
             <div class="col">
               <div id="projects" class="card">
                 <div class="card-body">
@@ -153,7 +118,7 @@
         </div>
       </div>
       <!--COL 2 - SIDE BAR-------------------------------------------->
-      <div id="sidebar" class="col">
+      <div id="sideBar" class="col">
         <div class="container">
           <div class="card">
             <img id="profilePic"
@@ -198,7 +163,9 @@
     <!--ROW 2--------------------------------------------------------->
     <div class="row">
     </div>
+    
   </div>
+  
   <script src="stylesheet.js"></script>
 </body>
 </html>
