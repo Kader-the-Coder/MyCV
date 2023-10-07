@@ -17,7 +17,7 @@ html {background-color:rgba(23, 155, 23, 1);}
   #mainBody {
     background-color: rgba(23, 155, 23, 1);
     #nestedContainer {
-      padding: 0;
+      padding: 0.5rem;
       text-align: center;
       font-size: larger;
       background-color: rgba(23, 155, 23, 1);
@@ -25,14 +25,13 @@ html {background-color:rgba(23, 155, 23, 1);}
         background-color: rgba(23, 155, 23, 1);
       }
       #nestedrowTwo {
-        background-color: rgba(23, 155, 23, 1);
+        background-color: #FF0000;
         padding-top: 1rem;
         padding-bottom: 1rem;
         #experience {
           height: 100%;
         }
-        #skills {
-          height: 100%;
+        #languages {
         }
       }
       #nestedrowThree {
@@ -45,10 +44,10 @@ html {background-color:rgba(23, 155, 23, 1);}
 
   }
   #sidebar {
-    min-width: 208px;
     background-color:rgba(23, 155, 23, 1);
     color: aliceblue;
     text-align: center;
+    padding-bottom: 1rem;
     #profilePic {
       margin-top: 1rem;
       display: block;
