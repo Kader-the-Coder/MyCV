@@ -1,4 +1,4 @@
-html {background-color:red;}
+html {background-color:rgba(23, 155, 23, 1);}
 
 #mainContainer {
   position: relative;
@@ -15,17 +15,17 @@ html {background-color:red;}
 
   background-image: url("./images/github.ico");
   #mainBody {
-    background-color: brown;
+    background-color: rgba(23, 155, 23, 1);
     #nestedContainer {
       padding: 0;
       text-align: center;
       font-size: larger;
-      background-color: blueviolet;
+      background-color: rgba(23, 155, 23, 1);
       #nestedrowOne {
-        background-color: red;
+        background-color: rgba(23, 155, 23, 1);
       }
       #nestedrowTwo {
-        background-color: green;
+        background-color: rgba(23, 155, 23, 1);
         padding-top: 1rem;
         padding-bottom: 1rem;
         #experience {
@@ -36,7 +36,7 @@ html {background-color:red;}
         }
       }
       #nestedrowThree {
-        background-color: blue;
+        background-color: rgba(23, 155, 23, 1);
         padding-bottom:1rem;
         #projects {
         }
@@ -46,17 +46,15 @@ html {background-color:red;}
   }
   #sidebar {
     min-width: 208px;
-    background-color:blueviolet;
+    background-color:rgba(23, 155, 23, 1);
     color: aliceblue;
     text-align: center;
     #profilePic {
       margin-top: 1rem;
       display: block;
-      width: 30%;
-      height: 30%;
+      width: 72px;
       margin-left: auto;
       margin-right: auto;
-      
     }
     #contactIcons {
       padding-top: 0px;
