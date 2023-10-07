@@ -25,17 +25,7 @@ html {background-color:rgba(23, 155, 23, 1);}
         text-align: center;
         background-color: rgba(23, 155, 23, 1);
       }
-      #nestedrowTwo {
-        background-color: #FF0000;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        #experience {
-          height: 100%;
-        }
-        #languages {
-          height: 100%;
-        }
-      }
+
       #nestedrowThree {
         background-color: rgba(23, 155, 23, 1);
         padding-bottom:1rem;
@@ -65,3 +55,14 @@ html {background-color:rgba(23, 155, 23, 1);}
   }
 }
 
+#nestedrowTwo {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  #experience {
+    height: 100%;
+  }
+  #languages {
+    height: 100%;
+  }
+}
