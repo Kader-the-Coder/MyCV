@@ -1,60 +1,19 @@
-a {
-  text-decoration: none;
-  color: black;
+body {
+  position: relative;
+  background-image: url("./images/phone_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
-.table {
-  table-layout: fixed;
-  word-wrap: normal;
-}
-.icons {
-  width:48px;
-  height:48px;
-}
-.icons:hover {
-  width:55px;
-  height:55px;;
+p {margin: 0!important}
+
+.card {
+  position: absolute;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: calc(100vw - 24px);
 }
 
-#nestedContainer {
-  padding: 0.5rem;
-}
-#nestedRowOne {
-}
-#nestedRowTwo {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-#experience {
-  height: 100%;
-}
-#languages {
-  height: 100%;
-}
-#nestedRowThree {
-  padding-bottom:1rem;
-}
-#sideBar {
-  margin-top: 0.5rem;
-  color: aliceblue;
-  padding-bottom: 1rem;
-}
-#profilePic {
-  margin-top: 1rem;
-  display: block;
-  width: 72px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#contactIcons {
-  padding-top: 0px;
-  border-style: none;
-  height: 96px;
-}
-
-#languages:hover, #experience:hover, #bio:hover, #projects:hover, #sideBarInfo:hover {
-  width:101%;
-  height:101%;
-  right: 0.5%;
-  bottom: 0.5%;
+.card:hover {
 }
