@@ -1,24 +1,16 @@
-/*
-window.addEventListener("load", () => {
-    addSpace()
-  });
-  window.addEventListener("resize", () => {
-    addSpace()
-  });
-  function addSpace() {
-    const container = document.getElementById("mainContainer")
-    const windowWidth = window.innerWidth
-    if (windowWidth < 576) {
-        container.style.top = "0";
-        container.style.left = "0";
-        container.style.transform = "translate(0, 0)";
-    } else if (windowWidth < 1200) {
-        container.style.top = "0";
-        container.style.left = "50%";
-        container.style.transform = "translate(-50%, 0)";
+var id = null;
+function myMove() {
+  var elem = document.getElementById("myAnimation");
+  var pos = 0;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
     } else {
-      container.style.top = "30%";
-      container.style.left = "50%";
-      container.style.transform = "translate(-50%, -30%)";
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
     }
   }
+}
