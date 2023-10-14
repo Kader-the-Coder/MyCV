@@ -1,19 +1,54 @@
 body {
+  height: 100vh;
   position: relative;
   background-image: url("./images/phone_bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 100vh;
 }
-
-p {margin: 0!important}
-
-.card {
+p {
+  margin: 0px!important;
+}
+/*-------------------------------------------------------------------*/
+.container {
   position: absolute;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  width: calc(100vw - 24px);
+  left:0;
+  right:0;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
 }
-
-.card:hover {
+.container::-webkit-scrollbar {
+  display: none;
+}
+.cardMain {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aContact {
+  width:48px;
+  height:48px;
+  margin: 0;
+}
+.iconsLanguage {
+  width: 40px;
+  height: 40px;
+}
+.iconsProject {
+  width: 48px;
+  height: 48px;
+}
+/*-------------------------------------------------------------------*/
+#sideBar {
+  text-align: center;
+}
+.col-1 {
+  max-width: 696px;
+}
+#sideBarInfo > .row {
+  padding:0%;
+  margin: 10%;
+}
+#profilePic {
+  padding: 16px;
+  width: 128px;
 }

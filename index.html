@@ -6,74 +6,127 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="media.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
   <title>AKG</title>
   <link rel="shortcut icon" type="ico" href="./images/favicon.ico" >
 </head>
 <body>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <!--Biography----------------------------------------------------->
-    <div class="col">
-      <div class="card">
-        <div class="card-body">
-          <p>Hi. I am </p>
-          <p><strong>Abdul Kader Gafoor</strong>.</p>
-          <p>I am a <em>coder</em>.</p>
+    <div class="col-1">
+      <div class="col">
+        <div class="card align-items-center cardMain">
+          <div class="card-body">
+            <p class="mb-0 text-center">Hi. I am </p>
+            <p class="mb-0 text-center"><strong>Abdul Kader Gafoor</strong>.</p>
+            <p class="mb-0 text-center">I am a <em>coder</em>.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!--Work Experience----------------------------------------------->
-    <div class="col">
-      <div id="myCollapsible" role="tablist">
-        <div class="card">
-          <div class="card-header" role="tab" id="headingOne">
-            <h5 class="mb-0">
-              <a data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Educator (2016 - Oct'23)
-              </a>
-            </h5>
+      <!--Work Experience----------------------------------------------->
+      <div class="col">
+        <div id="workExperience" class="card cardMain">
+          <div class="card-header">
+            <h4 class="mb-0 text-center">Work Experience</h4>
           </div>
-          <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-            <div class="card-body">
-              <li>Acting Head for Mathematics</li>
-              <li>Subject Head for Mathematics</li>
-              <li>Mathematics Educator</li>
-              <li>Subjects Taught:
-                <ul>
-                  <li>Mathematics</li>
-                  <li>Mathematical Literacy</li>
-                  <li>Physical Sciences</li>
-                  <li>Natural Sciences</li>
-                  <li>Technology</li>
-                </ul>
-              </li>
+          <div class="card">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="mb-0">
+                  Educator (2016 - Oct'23)
+              </h5>
+            </button>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#workExperience">
+              <div class="card-body">
+                <li>Acting Head for Mathematics</li>
+                  <li>Subject Head for Mathematics</li>
+                  <li>Mathematics Educator</li>
+                  <li>Subjects Taught:
+                    <ul style="list-style-type:circle;">
+                      <li>Mathematics</li>
+                      <li>Mathematical Literacy</li>
+                      <li>Physical Sciences</li>
+                      <li>Natural Sciences</li>
+                      <li>Technology</li>
+                    </ul>
+                  </li>
+              </div>
             </div>
           </div>
+          <div class="card">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <h5 class="mb-0">
+                  Tutor (2014 - Present)
+              </h5>
+            </button>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workExperience">
+              <div class="card-body">
+                <li>Independent Tutor</li>
+                <li>Subjects tutored:
+                  <ul style="list-style-type:circle;">
+                    <li>Mathematics Grade 8 - 12</li>
+                    <li>Mathematics KS3 - KS4</li>
+                    <li>Mathematics AS and A Levels</li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="card">
-          <div class="card-header" role="tab" id="headingTwo">
-            <h5 class="mb-0">
-              <a class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </a>
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="card-body">
-              ???
-            </div>
+        <!--Projects---------------------------------------------------->
+        <div class="card align-items-center cardMain">
+          <div class="card-body">
+            <img class="iconsLanguage" src=".\images\python_icon.png" alt="python">
+            <img class="iconsLanguage" src=".\images\html_icon.png" alt="html">
+            <img class="iconsLanguage" src=".\images\css_icon.png" alt="css">
+            <img class="iconsLanguage" src=".\images\javascript_icon.png" alt="javascript">
+            <hr>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/task-manager.git" target="_blank">
+              <img class="iconsProject" src="images/tm_icon.png" alt="Task manager icon">
+            </a>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/L1T30.git" target="_blank">
+              <img class="iconsProject" src="images/shoe_icon.png" alt="Shoe inventory project">
+            </a>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/book-manager" target="_blank">
+              <img class="iconsProject" src="images/book_icon.png" alt="Book manager icon">
+            </a>
           </div>
         </div>
       </div>
     </div>
     <!--sidePanel----------------------------------------------------->
-
+    <div id="sideBar" class="col">
+      <div id="sideBarInfo" class="card cardMain">
+        <div class="row-centered">
+          <img id="profilePic"
+                src="images/profile_pic.png"
+                alt="A friendly looking face">
+        </div>
+        <hr>
+        <h4>CONTACT DETAILS</h4>
+        <p>thekader786@gmail.com</p>
+        <div card-body>
+          <a style="text-decoration:none;" href="https://linkedin.com/in/akgxyz" target="_blank" rel="noopener">
+            <img class="iconsContact" src="images/linkedin.ico" alt="LinkedIn icon">
+          </a>
+          <a style="text-decoration:none;" href="https://github.com/Kader-the-Coder" target="_blank" rel="noopener">
+              <img class="iconsContact" src="images/github.ico" alt="GitHub icon">
+          </a>
+        </div>
+        <hr>
+        <h4>QUALIFICATIONS</h4>
+        <h5>Degrees</h5>
+        <p>B.Ed Maths and N.Sciences</p>
+        <hr style="width: 50%; align-self: center;">
+        <h5>Certificates</h5>
+        <p>Software Engineering</p>
+        <p>Teaching English as Foreign Language (TEFL)</p>
+        <hr>
+      </div>
+    </div>
   </div>
 </div>
 
