@@ -6,170 +6,132 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="media.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   
   <title>AKG</title>
   <link rel="shortcut icon" type="ico" href="./images/favicon.ico" >
 </head>
-
 <body>
-  <div id="mainContainer" class="container-fluid">
-    <!--ROW 1--------------------------------------------------------->
-    <div class="row">
-      <!--COL 1 - MAIN BODY------------------------------------------->
-      <div id="mainBody" class="col-9">
-        <!--NESTED CONTAINER - FOR NESTED ROWS----------------------->
-        <div id="nestedContainer" class="container-fluid">
-          <!--NESTED ROW 1 - BIOGRAPHY-------------------------------->
-          <div id="nestedrRowOne" class="row">
-            <div class="col">
-              <div id="bio" class="card">
-                <div class="card-body text-nowrap">
-                  <h3>Hi. I am<br><b>Abdul Kader Gafoor</b>.<br> I am a coder.<br></h3>
-                </div>
-              </div>
-            </div> 
+
+<div class="container">
+  <div class="row">
+    <!--Biography----------------------------------------------------->
+    <div class="col-1">
+      <div class="col">
+        <div class="card align-items-center cardMain">
+          <div class="card-body">
+            <p class="mb-0 text-center">Hi. I am </p>
+            <p class="mb-0 text-center"><strong>Abdul Kader Gafoor</strong>.</p>
+            <p class="mb-0 text-center">I am a <em>coder</em>.</p>
           </div>
-          <!--NESTED ROW 2-------------------------------------------->
-          <div id="nestedRowTwo" class="row">
-            <!--NESTED COL 1 - Experience----------------------------->
-            <div class="col-9">
-              <div id="experience" class="card">
-                <h4 class="card-header">Experience</h4>
-                <div class="card-body">
-                  <!--Table on small screens-------------------------->
-                  <table class="table table-hover">
-                    <tbody>
-                      <tr>
-                        <td>
-                          Acting H.O.D<br>
-                          WCED<br>
-                          '22 - Dec'22
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Subject Head<br>
-                          WCED<br>
-                          '18 - Oct'23
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Mathematics<br>
-                          WCED<br>
-                          '16 - Dec'23
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <!--NESTED COL 2 - LANGUAGES------------------------------>
-            <div class="col-3">
-              <div id="languages" class="card align-items-center">
-                <h4 class="d-none d-lg-block card-header">Languages</h4>
-                <div class="card-body">
-                  <img class="icons" src=".\images\python_icon.png" alt="python">
-                  <img class="icons" src=".\images\html_icon.png" alt="html">
-                  <img class="icons" src=".\images\css_icon.png" alt="css">
-                  <img class="icons" src=".\images\javascript_icon.png" alt="javascript">
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--NESTED ROW 3 - Projects--------------------------------->
-          <div id="nestedRowThree" class="row">
-            <div class="col">
-              <div id="projects" class="card">
-                <div class="card-body">
-                  <a style="text-decoration: none;"
-                  href="https://github.com/Kader-the-Coder/task-manager.git"
-                  target="_blank">
-                      <img
-                      class="icons"
-                      src="images/tm_icon.png"
-                      alt="Task manager icon">
-                  </a>
-                  <a style="text-decoration: none;"
-                  href="https://github.com/Kader-the-Coder/L1T30.git"
-                  target="_blank">
-                      <img
-                      class="icons"
-                      src="images/shoe_icon.png"
-                      alt="Shoe inventory project">
-                  </a>
-                  <a style="text-decoration: none;"
-                  href="https://github.com/Kader-the-Coder/book-manager"
-                  target="_blank">
-                      <img
-                      class="icons"
-                      src="images/book_icon.png"
-                      alt="Book manager icon">
-                  </a>
-                </div>
-              </div>
-            </div>     
-          </div>    
         </div>
       </div>
-      <!--COL 2 - SIDE BAR-------------------------------------------->
-      <div id="sideBar" class="col">
-        <div class="container">
-          <div id="sideBarInfo" class="card">
-            <img id="profilePic"
-                  class="img-fluid"
-                  src="images/profile_pic.png"
-                  alt="A friendly looking face">
-            <hr>
-            <h4>CONTACT DETAILS</h4>
-            <div>thekader786@gmail.com</div>
-            <br>
-            <div id="contactIcons" class="card">
+      <!--Work Experience----------------------------------------------->
+      <div class="col">
+        <div id="workExperience" class="card cardMain">
+          <div class="card-header">
+            <h4 class="mb-0 text-center">Work Experience</h4>
+          </div>
+          <div class="card">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5 class="mb-0">
+                  Educator (2016 - Oct'23)
+              </h5>
+            </button>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#workExperience">
               <div class="card-body">
-                <a style="text-decoration: none;" 
-                  href="https://linkedin.com/in/akgxyz"
-                  target="_blank"
-                  rel="noopener">
-                    <img
-                    class="icons"
-                    src="images/linkedin.ico"
-                    alt="LinkedIn icon">
-                </a>
-                <a style="text-decoration: none;" 
-                  href="https://github.com/Kader-the-Coder"
-                  target="_blank"
-                  rel="noopener">
-                    <img
-                    class="icons"
-                    src="images/github.ico"
-                    alt="GitHub icon">
-                </a>
+                <li>Acting Head for Mathematics</li>
+                  <li>Subject Head for Mathematics</li>
+                  <li>Mathematics Educator</li>
+                  <li>Subjects Taught:
+                    <ul style="list-style-type:circle;">
+                      <li>Mathematics</li>
+                      <li>Mathematical Literacy</li>
+                      <li>Physical Sciences</li>
+                      <li>Natural Sciences</li>
+                      <li>Technology</li>
+                    </ul>
+                  </li>
               </div>
             </div>
+          </div>
+          <div class="card">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <h5 class="mb-0">
+                  Tutor (2014 - Present)
+              </h5>
+            </button>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#workExperience">
+              <div class="card-body">
+                <li>Independent Tutor</li>
+                <li>Subjects tutored:
+                  <ul style="list-style-type:circle;">
+                    <li>Mathematics Grade 8 - 12</li>
+                    <li>Mathematics KS3 - KS4</li>
+                    <li>Mathematics AS and A Levels</li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--Projects---------------------------------------------------->
+        <div class="card align-items-center cardMain">
+          <div class="card-body">
+            <img class="iconsLanguage" src=".\images\python_icon.png" alt="python">
+            <img class="iconsLanguage" src=".\images\html_icon.png" alt="html">
+            <img class="iconsLanguage" src=".\images\css_icon.png" alt="css">
+            <img class="iconsLanguage" src=".\images\javascript_icon.png" alt="javascript">
             <hr>
-            <h4>QUALIFICATIONS</h4>
-                <h5>Degrees</h5>
-                B.Ed Maths and N.Sciences<br>
-                <hr style="width: 50%; align-self: center;">
-                <h5>Certificates</h5>
-                Software Engineering<br>
-                Teaching English as Foreign Language (TEFL)<br>
-            <hr>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/task-manager.git" target="_blank">
+              <img class="iconsProject" src="images/tm_icon.png" alt="Task manager icon">
+            </a>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/L1T30.git" target="_blank">
+              <img class="iconsProject" src="images/shoe_icon.png" alt="Shoe inventory project">
+            </a>
+            <a style="text-decoration: none;" href="https://github.com/Kader-the-Coder/book-manager" target="_blank">
+              <img class="iconsProject" src="images/book_icon.png" alt="Book manager icon">
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!--ROW 2--------------------------------------------------------->
-    <div class="row">
+    <!--sidePanel----------------------------------------------------->
+    <div id="sideBar" class="col">
+      <div id="sideBarInfo" class="card cardMain">
+        <div class="row-centered">
+          <img id="profilePic"
+                src="images/profile_pic.png"
+                alt="A friendly looking face">
+        </div>
+        <hr>
+        <h4>CONTACT DETAILS</h4>
+        <p>thekader786@gmail.com</p>
+        <div card-body>
+          <a style="text-decoration:none;" href="https://linkedin.com/in/akgxyz" target="_blank" rel="noopener">
+            <img class="iconsContact" src="images/linkedin.ico" alt="LinkedIn icon">
+          </a>
+          <a style="text-decoration:none;" href="https://github.com/Kader-the-Coder" target="_blank" rel="noopener">
+              <img class="iconsContact" src="images/github.ico" alt="GitHub icon">
+          </a>
+        </div>
+        <hr>
+        <h4>QUALIFICATIONS</h4>
+        <h5>Degrees</h5>
+        <p>B.Ed Maths and N.Sciences</p>
+        <hr style="width: 50%; align-self: center;">
+        <h5>Certificates</h5>
+        <p>Software Engineering</p>
+        <p>Teaching English as Foreign Language (TEFL)</p>
+        <hr>
+      </div>
     </div>
-    
   </div>
-  
-  <script src="stylesheet.js"></script>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

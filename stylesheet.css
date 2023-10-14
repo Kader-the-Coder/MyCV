@@ -1,60 +1,54 @@
-a {
-  text-decoration: none;
-  color: black;
+body {
+  height: 100vh;
+  position: relative;
+  background-image: url("./images/phone_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
-.table {
-  table-layout: fixed;
-  word-wrap: normal;
+p {
+  margin: 0px!important;
 }
-.icons {
+/*-------------------------------------------------------------------*/
+.container {
+  position: absolute;
+  left:0;
+  right:0;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.cardMain {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.aContact {
   width:48px;
   height:48px;
+  margin: 0;
 }
-.icons:hover {
-  width:55px;
-  height:55px;;
+.iconsLanguage {
+  width: 40px;
+  height: 40px;
 }
-
-#nestedContainer {
-  padding: 0.5rem;
+.iconsProject {
+  width: 48px;
+  height: 48px;
 }
-#nestedRowOne {
-}
-#nestedRowTwo {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-#experience {
-  height: 100%;
-}
-#languages {
-  height: 100%;
-}
-#nestedRowThree {
-  padding-bottom:1rem;
-}
+/*-------------------------------------------------------------------*/
 #sideBar {
-  margin-top: 0.5rem;
-  color: aliceblue;
-  padding-bottom: 1rem;
+  text-align: center;
+}
+.col-1 {
+  max-width: 696px;
+}
+#sideBarInfo > .row {
+  padding:0%;
+  margin: 10%;
 }
 #profilePic {
-  margin-top: 1rem;
-  display: block;
-  width: 72px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#contactIcons {
-  padding-top: 0px;
-  border-style: none;
-  height: 96px;
-}
-
-#languages:hover, #experience:hover, #bio:hover, #projects:hover, #sideBarInfo:hover {
-  width:101%;
-  height:101%;
-  right: 0.5%;
-  bottom: 0.5%;
+  padding: 16px;
+  width: 128px;
 }
